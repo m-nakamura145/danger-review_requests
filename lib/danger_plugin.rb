@@ -1,1 +1,1 @@
-require 'danger/review_requests'
+require 'review_requests/review_requests'

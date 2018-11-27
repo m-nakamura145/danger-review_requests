@@ -1,10 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'danger/review_requests/version'
+require 'review_requests/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'danger-review_requests'
-  spec.version       = Danger::ReviewRequests::VERSION
+  spec.version       = ReviewRequests::VERSION
   spec.authors       = ['m-nakamura145']
   spec.email         = ['masato.nakamura145@gmail.com']
 

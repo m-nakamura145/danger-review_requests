@@ -1,5 +1,3 @@
-require 'danger/review_requests/version'
-
 module Danger
   class ReviewRequests < ::Danger::Plugin
 
