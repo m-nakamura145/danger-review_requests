@@ -1,0 +1,1 @@
+require 'danger/review_requests'
