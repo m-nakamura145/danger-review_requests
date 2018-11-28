@@ -1,6 +1,10 @@
 # Danger::ReviewRequests
 
-A danger plug-in to request review in pull requests.
+[![Gem Version](https://badge.fury.io/rb/danger-review_requests.svg)](https://badge.fury.io/rb/danger-review_requests)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/m-nakamura145/danger-review_requests/blob/master/LICENSE.txt)
+[![CircleCI](https://circleci.com/gh/m-nakamura145/danger-review_requests.svg?style=svg)](https://circleci.com/gh/m-nakamura145/danger-review_requests)
+
+A danger plug-in to request a review in pull requests.
 
 ## Installation
 
@@ -19,8 +23,13 @@ Or install it yourself as:
     $ gem install danger-review_requests
 
 ## Usage
+The easiest way to use is just add this to your `Dangerfile`:
 
-TODO
+```ruby
+# Request a review of pull requests randomly
+review_requests.request(['m-nakamura145-bot','m-nakamura145-bot2'].sample(1))
+```    
+
 
 ## Development
 
