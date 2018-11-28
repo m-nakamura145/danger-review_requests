@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    danger-review_requests (0.0.2)
+    danger-review_requests (1.0.0)
       danger
 
 GEM
@@ -69,7 +69,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  danger
   danger-review_requests!
   rake (~> 10.0)
   rspec (~> 3.0)
