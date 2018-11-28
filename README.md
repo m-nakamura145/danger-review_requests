@@ -4,7 +4,9 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/m-nakamura145/danger-review_requests/blob/master/LICENSE.txt)
 [![CircleCI](https://circleci.com/gh/m-nakamura145/danger-review_requests.svg?style=svg)](https://circleci.com/gh/m-nakamura145/danger-review_requests)
 
-A danger plug-in to request a review in pull requests.
+A [danger](https://github.com/danger/danger) plug-in to request a review in pull requests.
+
+![](https://raw.githubusercontent.com/m-nakamura145/danger-review_requests/master/images/demo.png)
 
 ## Installation
 
