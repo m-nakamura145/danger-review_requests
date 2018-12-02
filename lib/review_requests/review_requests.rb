@@ -3,7 +3,7 @@ module Danger
 
     # @param [Array<String>] reviewers
     def request(reviewers)
-      github.api.request_pull_request_review(repo, github.pr_json['number'], reviewers: reviewers)
+      github.api.request_pull_request_review(repo, github.pr_json['number'], reviewers: Array(reviewers))
     end
 
     private
